@@ -1,0 +1,7 @@
+myList = ["Cat", "NO",False, "What's you name??", 100.50, True, 18, "F", "L", "The end!"]
+
+for i in range (0, 10):
+    print(myList[i]) # Original list 
+    
+    for i in range (9, -1, -1):
+        print(myList[i]) #backwards list
